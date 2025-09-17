@@ -1,9 +1,8 @@
-# C_Basic_Programms
-This repository contains a collection of basic C programs written for practice and learning purposes. The programs cover fundamental concepts such as input/output, loops, conditionals, arrays, strings, functions, and more. Useful for beginners in C programming.
+# C and C++ basic programms
+This repository contains a collection of basic C and C++ programs written for practice and learning purposes. The programs cover fundamental concepts such as input/output, loops, conditionals, arrays, strings, functions, and more. Useful for beginners in C and C++ programming.
+# C and C++ Programs Collection
 
-# C Programs Collection
-
-This repository contains a collection of **basic C programs** for practice and learning.  
+This repository contains a collection of **basic C and C++ programs** for practice and learning.  
 It includes simple examples as well as slightly advanced programs, organized into categories.  
 
 ## 📌 Topics Covered
@@ -13,4 +12,5 @@ It includes simple examples as well as slightly advanced programs, organized int
 - Arrays and Strings
 - Functions
 - Pointers
-- Structures
+- Structures & Classes (C++)
+- Object-Oriented Concepts (C++)
