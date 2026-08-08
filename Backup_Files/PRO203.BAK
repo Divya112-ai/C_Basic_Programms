@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i;
+char s[][10]={"Cdac","Computer","Education"};
+clrscr();
+
+for(i=0;i<3;i++)
+{
+	printf("\n%s",s[i]);
+}
+getch();
+}

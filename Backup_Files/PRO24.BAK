@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a,b,c;
+float p,r,n,si;
+clrscr();
+printf("Enter the value of P:");
+scanf("%f",&p);
+printf("Enter the value of rate:");
+scanf("%f",&r);
+printf("Enter the number of years:");
+scanf("%f",&n);
+si=p*r*n/100;
+printf("Simple intrest is:%f",si);
+getch();
+}

@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+void main()
+{
+int count,length;
+char str[30];
+printf("\nEnter A String:\t");
+scanf("%[^\n]s",str);
+length=strlen(str);
+for(count=0;count<length;count++)
+{
+	if(str[count]==97||str[count]==101||str[count]==105||str[count]==111||str[count]==117||str[count]==65||str[count]==69||str[count]==73||str[count]==79||str[count]==85)
+	{
+		printf("Vowel at Position [%d]:\t%c\n",count,str[count]);
+	}
+}
+getch();
+}

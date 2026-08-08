@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+char m[40];
+int cap=0,small=0,spec=0;
+clrscr();
+printf("Enter a string:>>");
+gets(m);
+for(i=0;i<strlen(m);i++)
+{
+	if(m[i]>='A'&&m[i]<='Z')
+	{
+		cap++;
+	}
+	else if(m[i]>='a'&&m[i]<='z')
+	{
+		small++;
+	}
+	else
+	{
+		spec++;
+	}
+}
+printf("\nCapital letters:%d\n",cap);
+printf("Small letters:%d\n",small);
+printf("Special letters:%d\n",spec);
+getch();
+}

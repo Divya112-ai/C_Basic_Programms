@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,len=0,vowel=0;
+char arr[100],ch;
+clrscr();
+printf("Enter any string:");
+fflush(stdin);
+gets(arr);
+while(arr[len]!='\0')
+{
+	len++;
+}
+for(i=0;i<=len;i++)
+{
+	ch=arr[i];
+	if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+	{
+		vowel++;
+	}
+}
+printf("Total vowel is=%d",vowel);
+getch();
+}

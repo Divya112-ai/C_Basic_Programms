@@ -1,0 +1,36 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int asize,bsize,msize,i,j;
+int a[10],b[10],merged[20];
+printf("\nPlease Enter the first array size:");
+scanf("%d",&asize);
+printf("\nPlease enter the second array size:");
+scanf("%d",&bsize);
+printf("please enter the first array elements:\n");
+for(i=0;i<asize;i++)
+{
+	scanf("%d",&a[i]);
+}
+printf("Please enter the second array elements:\n");
+for(i=0;i<bsize;i++)
+{
+	scanf("%d",&b[i]);
+}
+for(i=0;i<asize;i++)
+{
+	merged[i]=a[i];
+}
+msize=asize+bsize;
+for(i=0,j=asize;j<msize&&i<bsize;i++,j++)
+{
+	merged[j]=b[i];
+}
+printf("\n a[%d] array Elements after merging \n",msize);
+for(i=0;i<msize;i++)
+{
+	printf("%d  ",merged[i]);
+}
+getch();
+}

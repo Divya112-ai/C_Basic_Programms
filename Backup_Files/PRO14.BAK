@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int days,month,rd;
+clrscr();
+printf("days =");
+scanf("%d",&days);
+month=days/30;
+rd=days%30;
+printf("\nmonth =%d",month);
+printf("\nremaining days =%d",rd);
+getch();
+}

@@ -1,0 +1,61 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,k,arr1[10][10],rsum[10],csum[10],n;
+clrscr();
+printf("\n\nFind the sum of rows an columns of a matrix:\n");
+printf("\n----------------------------------------------------------------");
+printf("\nInput the size of the square matrix:");
+scanf("%d",&n);
+printf("input elements in the first matrix:\n");
+for(i=0;i<n;i++)
+{
+	for(j=0;j<n;j++)
+	{
+		printf("element-[%d],[%d]:",i,j);
+		scanf("%d",&arr1[i][j]);
+		printf("\n");
+	}
+}
+printf("The matrix is :\n");
+for(i=0;i<n;i++)
+{
+	for(j=0;j<n;j++)
+	printf("%4d",arr1[i][j]);
+	printf("\n");
+}
+/* sum of rows */
+for(i=0;i<n;i++)
+{
+	rsum[i]=0;
+	for(j=0;j<n;j++)
+	rsum[i]+=arr1[i][j];
+}
+/* sum of columns */
+for(i=0;i<n;i++)
+{
+	csum[i]=0;
+	for(j=0;j<n;j++)
+	csum[i]+=arr1[j][i];
+}
+printf("The sum of rows and columns of the matrix is:\n");
+for(i=0;i<n;i++)
+{
+	for(j=0;j<n;j++)
+	printf("%4d",arr1[i][j]);
+	printf("%8d",rsum[i]);
+	printf("\n");
+}
+	printf("\n");
+	for(j=0;j<n;j++)
+	{
+		printf("%4d",csum[j]);
+	}
+	printf("\n\n");
+getch();
+}
+
+
+
+

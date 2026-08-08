@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+clrscr();
+printf("the value of a=");
+scanf("%d",&a);
+if(a>0)
+{
+ printf("a is positive number.");
+}
+else if(a<0)
+{
+ printf("a is negative number.");
+}
+else if(a==0)
+{
+ printf("the value of a=0");
+}
+getch();
+}

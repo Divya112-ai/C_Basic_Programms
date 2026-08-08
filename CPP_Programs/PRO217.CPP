@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+struct book
+{
+ int no;
+ char name[20];
+ int price;
+};
+void main()
+{
+	clrscr();
+	book
+	b1={1,"yova",100},b2={2,"navneet",120},b3={3,"classmate",150};
+	printf("-------------------------------------\n");
+	printf("NO.\tNAME.\tPRICE\n");
+	printf("-------------------------------------\n");
+	printf("%d.|\t|%s      %d|\n",b1.no,b1.name,b1.price);
+	printf("%d.|\t|%s   %d|\n",b2.no,b2.name,b2.price);
+	printf("%d.|\t|%s %d|\n",b3.no,b3.name,b3.price);
+	printf("------------------------------------\n");
+	getch();
+}

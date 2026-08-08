@@ -1,0 +1,44 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j,k;
+clrscr();
+i=5;
+while(i>=1)
+{
+	k=1;
+	while(k<=i)
+	{
+		printf(" ");
+		k++;
+	}
+	j=5;
+	while(j>=i)
+	{
+		printf(" *");
+		j--;
+	}
+	printf("\n");
+	i--;
+}
+i=1;
+while(i<=4)
+{
+	k=0;
+	while(k<=i)
+	{
+		printf(" ");
+		k++;
+	}
+	j=4;
+	while(j>=i)
+	{
+		printf(" *");
+		j--;
+	}
+	printf("\n");
+	i++;
+}
+getch();
+}

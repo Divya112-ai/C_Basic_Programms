@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+clrscr();
+printf("ENTER YOUR NUMBER :");
+scanf("%d",&a);
+switch(a)
+{
+	  case 1:
