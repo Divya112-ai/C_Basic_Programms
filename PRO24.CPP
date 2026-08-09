@@ -2,24 +2,38 @@
 #include<conio.h>
 void main()
 {
-int a,b,c,d,e;
+int a,b,c,d;
 clrscr();
-printf("enter the value of a:");
+printf("the value of a=");
 scanf("%d",&a);
-printf("enter the value of b:");
+printf("the value of b=");
 scanf("%d",&b);
-printf("enter the value of c:");
+printf("the value of c=");
 scanf("%d",&c);
-printf("enter the value of d:");
-scanf("%d",&d);
-printf("enter the value of e:");
-scnaf("%d",&e);
-if(a>b&&a>c&&a>d&&a>e)
+if(c==1)
 {
-	printf("a is the biggest number.");
+d=a+b;
+printf("a+b=%d",d);
 }
-else if(b>a&&b>c&&b>d&&b>e)
+else if(c==2)
 {
-	printf("b is the biggest number.");
+d=a-b;
+printf("a-b=%d",d);
 }
-else if(c>a&&c>b&&c>)
+else if (c==3)
+{
+d=a*b;
+printf("a*b=%d",d);
+}
+else if (c==4)
+{
+d=a/b;
+printf("a/b=%d",d);
+}
+else if(c==5)
+{
+d=a%b;
+printf("a modules b=%d",d);
+}
+getch();
+}

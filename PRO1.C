@@ -2,9 +2,7 @@
 #include<conio.h>
 void main()
 {
-int a,b,c;
 clrscr();
-printf("Hello c!");
-printf("Enter the language");
-
+printf("hello world");
 getch();
+}

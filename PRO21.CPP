@@ -1,16 +1,23 @@
 #include<stdio.h>
 #include<conio.h>
+#include<math.h>
 void main()
 {
-int n,i;
+int a,b;
+float c;
 clrscr();
-i=1;
-printf("enter the value of n:");
-scanf("%d",&n);
-if(i<10)
+printf("ther value of a :");
+scanf("%d",&a);
+b=sqrt(a);
+c=a/b;
+printf("the value of b :%d\n\n",b);
+if(b==c)
 {
-	printf("%d x %d= %d",n,i,n*i);
-
+printf("a is a perfect no.");
+}
+else
+{
+printf("a is not a perfect no.");
 }
 getch();
 }

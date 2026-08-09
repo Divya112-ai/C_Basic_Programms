@@ -2,19 +2,17 @@
 #include<conio.h>
 void main()
 {
-int i,j;
+int a;
 clrscr();
-i=1;
-while(i<=5)
+printf("the value of a =");
+scanf("%d",&a);
+if(a>0)
 {
-	j=1;
-	while(j<=i)
-	{
-		printf("%d ",j);
-		j++;
-	}
-	printf("\n");
-	i++;
+printf("a is positive.");
+}
+else
+{
+printf("a is negative.");
 }
 getch();
 }

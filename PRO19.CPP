@@ -2,19 +2,17 @@
 #include<conio.h>
 void main()
 {
-int i,j;
+int a;
 clrscr();
-i=1;
-while(i<=5)
+printf("the value of a=");
+scanf("%d",&a);
+if(a%2==0)
 {
-	j=1;
-	while(j<=i)
-	{
-		printf("%d ",i);
-		j++;
-	}
-	printf("\n");
-	i++;
+printf("a is an even number.");
+}
+else
+{
+printf("a is an odd numver.");
 }
 getch();
 }

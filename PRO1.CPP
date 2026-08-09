@@ -2,25 +2,21 @@
 #include<conio.h>
 void main()
 {
-int a[3][3],i,j;
+int a;
 clrscr();
-printf("enter the matrix elements:\n");
-for(i=0;i<3;i++)
+printf("the value of a=");
+scanf("%d",&a);
+if(a>0)
 {
-	for(j=0;j<3;j++)
-	{
-		scanf("%d",&a[i][j]);
-	}
-	printf("\n");
+ printf("a is positive number.");
 }
-printf("printing the matrix...\n");
-for(i=0;i<3;i++)
+else if(a<0)
 {
-	for(j=0;j<3;j++)
-	{
-		printf("%d  ",a[i][j]);
-	}
-	printf("\n");
+ printf("a is negative number.");
+}
+else if(a==0)
+{
+ printf("the value of a=0");
 }
 getch();
 }

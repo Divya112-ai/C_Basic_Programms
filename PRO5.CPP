@@ -2,13 +2,13 @@
 #include<conio.h>
 void main()
 {
-int n,i;
+float p=125,r=150,t=175;
+float si;
 clrscr();
-printf("enter the value of n:");
-scanf("%d",&n);
-for(i=1;i<=n;i++)
-{
-printf("%d ",i);
-}
+printf("\n p=%f",p);
+printf("\n r=%f",r);
+printf("\n t=%f",t);
+si=p*r*t/100;
+printf("\n si=%f",si);
 getch();
 }

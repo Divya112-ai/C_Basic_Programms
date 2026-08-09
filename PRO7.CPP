@@ -2,10 +2,11 @@
 #include<conio.h>
 void main()
 {
-int a;
+int days=155,month,rd;
 clrscr();
-printf("enter the value of a:");
-scanf("%d",&a);
-a>0? printf("a is positive number."):printf("a is negative number");
+printf("there are %d days here",days);
+month=days/30;
+rd=days%30;
+printf("\n%d month and %d days.",month,rd);
 getch();
 }

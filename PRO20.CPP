@@ -2,11 +2,17 @@
 #include<conio.h>
 void main()
 {
-int n,a;
+int year;
 clrscr();
-printf("enter the value of n:");
-scanf("%d",&n);
-a=n%10;
-printf("\nthe last digit of n=%d",a);
+printf("year :");
+scanf("%d",&year);
+if (year%4==0&&(year%400==0 || year%100!=0))
+{
+printf("this is leap year.");
+}
+else
+{
+printf("this is not a leap year.");
+}
 getch();
 }

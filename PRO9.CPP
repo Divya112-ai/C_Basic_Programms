@@ -2,14 +2,14 @@
 #include<conio.h>
 void main()
 {
-int i,n,sum=1;
+int a=100,b=200;
 clrscr();
-printf("enter the value of n:");
-scanf("%d",&n);
-for(i=1;i<=n;i++)
-{
-sum=sum*i;
-}
-printf("%d",sum);
+printf("\nbefore swapping a=%d",a);
+printf("\nbefore swapping b=%d",b);
+a=a-b;
+b=a+b;
+a=b-a;
+printf("\nafter swapping a=%d",a);
+printf("\nafter swapping b=%d",b);
 getch();
 }

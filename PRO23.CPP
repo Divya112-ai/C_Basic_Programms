@@ -2,17 +2,25 @@
 #include<conio.h>
 void main()
 {
-int a[10],i;
+int a,b,c;
 clrscr();
-printf("enter the array elements:\n");
-for(i=0;i<10;i++)
+printf("the value of a=");
+scanf("%d",&a);
+printf("the value of b=");
+scanf("%d",&b);
+printf("the value of c=");
+scanf("%d",&c);
+if (a>b&&a>c)
 {
-	scanf("%d ",&a[i]);
+printf("a is the biggest number.");
 }
-printf("printing the array elements :\n");
-for(i=0;i<10;i++)
+else if (b>a&&b>c)
 {
-	printf("%d ",a[i]);
+printf("b is the biggest number.");
+}
+else if (c>a&&c>b)
+{
+printf("c is the biggest number.");
 }
 getch();
 }

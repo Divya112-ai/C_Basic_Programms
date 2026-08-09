@@ -1,0 +1,7 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int days=155,month,rd;
+clrscr();
+printf("there are %d days here")

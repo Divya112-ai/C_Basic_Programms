@@ -2,13 +2,15 @@
 #include<conio.h>
 void main()
 {
-int i,n;
+int p,r,t,si;
 clrscr();
-printf("enter the value of n:");
-scanf("%d",&n);
-for(i=1;i<=10;i++)
-{
-printf("%d x %d = %d\n",n,i,n*i);
-}
+printf("enter principal :");
+scanf("%d",&p);
+printf("enter rate :");
+scanf("%d",&r);
+printf("enter year :");
+scanf("%d",&t);
+si=p*r*t/100;
+printf("\nsimple intrest :%d",si);
 getch();
 }

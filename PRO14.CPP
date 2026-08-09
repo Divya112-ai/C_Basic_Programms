@@ -2,14 +2,13 @@
 #include<conio.h>
 void main()
 {
-int i,n;
+int days,month,rd;
 clrscr();
-printf("enter the value of n:");
-scanf("%d",&n);
-for(i=1;i<=n;i++)
-if(i%2!=0)
-{
-printf("%d ",i);
-}
+printf("days =");
+scanf("%d",&days`);
+month=days/30;
+rd=days%30;
+printf("\nmonth =%d",month);
+printf("\nremaining days =%d",rd);
 getch();
 }

@@ -2,11 +2,21 @@
 #include<conio.h>
 void main()
 {
-int i,num[10]={1,2,3,4,5,6,7,8,9,0};
+int a;
 clrscr();
-for(i=0;i<10;i++)
+printf("the value of a =");
+scanf("%d",&a);
+if (a>0)
 {
-	printf("%d ",num[i]);
+ printf("a is a positive number.");
+}
+else if(a<0)
+{
+printf("a is a negative number.");
+}
+else if(a==0)
+{
+printf("the value of a is zero.");
 }
 getch();
 }

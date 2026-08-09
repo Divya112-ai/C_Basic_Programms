@@ -2,15 +2,19 @@
 #include<conio.h>
 void main()
 {
-int i,n,sum=0;
+float maths,science;
+float english;
+float total,pr;
 clrscr();
-printf("enter the value of n:");
-scanf("%d",&n);
-for(i=1;i<=n;i++)
-if(i%2!=0)
-{
-sum=sum+i;
-}
-printf("sum of odd =%d",sum);
+printf("maths :");
+scanf("%f",&maths);
+printf("science :");
+scanf("%f",&science);
+printf("english :");
+scanf("%f",&english);
+total=maths+science+english;
+printf("\ntotal:%f",total);
+pr=total/3;
+printf("\npersentage :%f",pr);
 getch();
 }

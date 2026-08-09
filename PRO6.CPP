@@ -2,13 +2,13 @@
 #include<conio.h>
 void main()
 {
-int i,n;
+int r=12;
+float pi=3.14;
+float area;
 clrscr();
-printf("n:");
-scanf("%d",&n);
-for(i=1000;i>=1;i--)
-{
-printf("%d ",i);
-}
+printf("\nthe radius of circle :%d",r);
+printf("\nthe value of pi :%f",pi);
+area=pi*r*r;
+printf("\nthe area of circle =%f",area);
 getch();
 }

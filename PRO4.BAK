@@ -2,17 +2,15 @@
 #include<conio.h>
 void main()
 {
-char a;
+int a=10,b=20,c,d,e;
 clrscr();
-printf("ENTER YOUR ALPHABET :");
-scanf("%c",&a);
-if(a=='a'||a=='A'||a=='e'||a=='E'||a=='i'||a=='I'||a=='o'||a=='O'||a=='u'||a=='U');
-{
-printf("your character is a vovel.");
-}
-else
-{
-printf("your character is not a vovel.");
-}
+printf("the value of a =%d",a);
+printf("\nthe value of b =%d",b);
+c=a+b;
+printf("\na+b=%d",c);
+d=a-b;
+printf("\na-b=%d",d);
+e=a*b;
+printf("\na*b=%d",e);
 getch();
 }

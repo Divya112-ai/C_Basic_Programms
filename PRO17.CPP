@@ -2,17 +2,17 @@
 #include<conio.h>
 void main()
 {
-int i,j,n;
+int a;
 clrscr();
-printf("enter the value of n:");
-scanf("%d",&n);
-for(i=1;i<=n;i++)
+printf("your age :");
+scanf("%d",&a);
+if(a>18)
 {
-	for(j=1;j<=n;j++)
-	{
-	printf(" @");
-	}
-	printf("\n");
+printf("you can vote.");
+}
+else
+{
+printf("you cannot vote.");
 }
 getch();
 }

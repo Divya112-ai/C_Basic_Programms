@@ -2,14 +2,13 @@
 #include<conio.h>
 void main()
 {
-int i,n,sum=0;
+int paisa=250;
+float rupee,rd;
 clrscr();
-printf("enter n:");
-scanf("%d",&n);
-for(i=1;i<=n;i++)
-{
-sum=sum+i;
-}
-printf("sum of n:%d",sum);
+printf("paisa=%d",paisa);
+rupee=paisa/100;
+rd=paisa%100;
+printf("\nrupee=%f",rupee);
+printf("\nremaining paisa=%f",rd);
 getch();
 }
