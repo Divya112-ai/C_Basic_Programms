@@ -1,21 +1,31 @@
-//program to add multiple data
-#include<iostream.h>
+#include<stdio.h>
 #include<conio.h>
-#include<fstream.h>
 void main()
 {
-	char data[100],j;
-	int i=1;
-	of stream ot;
-	ot.open("jj.txt");
-	do
+int a;
+clrscr();
+printf("enter the value of a=");
+scanf("%d",&a);
+if(a%2==0)
+{
+	if(a>0)
 	{
-		cout<<"enter name:";
-		cin>>data;
-		ot<<"name"<<j<<" = "<<data<<endl;
-		cout<<"Enter age:";
-		cin.ignore();
-		cin>>data;
-		ot<<""
+	printf("a is an even and positive number.");
 	}
+	else
+	{
+	printf("a is an even and negative number.");
+	}
+}
+else
+{	if(a>0)
+	{
+	printf("a is an odd and positive number.");
+	}
+	else
+	{
+	printf("a is an odd and negative number.");
+	}
+}
+getch();
 }
