@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int i,j;
+clrscr();
+i=1;
+while(i<=5)
+{
+	j=1;
+	while(j<=5)
+	{
+		if(i==1||i==5||i==1||i==j||j==1||j==5||j==6-i)
+		{
+			printf("* ");
+		}
+		else
+		{
+			printf("  ");
+		}
+		j++;
+	}
+	printf("\n");
+	i++;
+}
+getch();
+}
