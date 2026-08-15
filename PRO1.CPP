@@ -1,22 +1,21 @@
-#include<stdio.h>
+//simple write operation
+#include<fstream.h>
+#include<iostream.h>
 #include<conio.h>
-void main()
+int main()
 {
-int a;
-clrscr();
-printf("the value of a=");
-scanf("%d",&a);
-if(a>0)
-{
- printf("a is positive number.");
+	ofstream fout;
+	clrscr();
+	fout.open("sample.txt");
+	fout<<"This is first program";
+	getch();
+	return 0;
+
+
+
+
+
+
+
 }
-else if(a<0)
-{
- printf("a is negative number.");
-}
-else if(a==0)
-{
- printf("the value of a=0");
-}
-getch();
-}
+

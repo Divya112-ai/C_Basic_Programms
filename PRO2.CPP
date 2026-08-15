@@ -1,18 +1,18 @@
-#include<stdio.h>
+//program to read from text file and display it
+#include<fstream.h>
 #include<conio.h>
-void main()
+int main()
 {
-clrscr();
-printf("\ndivya");
-printf("\ndivya");
-printf("\ndivya");
-printf("\ndivya");
-printf("\ndivya");
-printf("\ndivya");
-printf("\ndivya");
-printf("\ndivya");
-printf("\ndivya");
-printf("\ndivya");
-printf("\ndivya");
-getch();
+	ifstream fin;
+	fin.open("sample.txt");
+	char ch;
+	while(fin.eof())
+	{
+		fin.get(ch);
+		cout<<ch;
+
+	}
+	fin.close();
+	getch();
+	return 0;
 }

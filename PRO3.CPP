@@ -1,16 +1,21 @@
-#include<stdio.h>
+//program to add multiple data
+#include<iostream.h>
 #include<conio.h>
+#include<fstream.h>
 void main()
 {
-clrscr();
-printf("\nname : prajapati divya snehalkumar");
-printf("\nfather name : snehalkumar babubhai prajapati");
-printf("\nmother name : varshaben snehalkumar prajapati");
-printf("\ndob :01/12/2006");
-printf("\neducation qualification :12th science");
-printf("\nresult :85.56%");
-printf("\nblood group :b+");
-printf("\nhobby :reading,listening music");
-printf("\ncontact no : 9825806906");
-getch();
+	char data[100],j;
+	int i=1;
+	of stream ot;
+	ot.open("jj.txt");
+	do
+	{
+		cout<<"enter name:";
+		cin>>data;
+		ot<<"name"<<j<<" = "<<data<<endl;
+		cout<<"Enter age:";
+		cin.ignore();
+		cin>>data;
+		ot<<""
+	}
 }
