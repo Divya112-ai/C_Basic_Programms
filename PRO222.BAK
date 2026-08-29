@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+struct item
+{
+ int code;
+ char name[20];
+ int qty;
+};
+void main()
+{
+ item t1={101,"soap",345},t2;
+ item modify(item);
+ clrscr();
+ printf("Before calling function\n");
+ printf("%d\t%s\t%d\n",t1.code,t2.name,t1.qty);
+ printf("%d\t%s\t%d\n",t1.code,t2.name,t2,qty);
+ t2=modify(t1);
+ printf("After calling function\n");
+
+
+
+
+
+
+ getch();
+ }
